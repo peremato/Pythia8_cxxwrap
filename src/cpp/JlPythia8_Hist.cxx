@@ -359,7 +359,8 @@ struct JlPythia8_Hist: public Wrapper {
     DEBUG_MSG("Adding wrapper for Pythia8::Hist Pythia8::Hist::operator+(double) (" __HERE__ ")");
     // signature to use in the veto list: Pythia8::Hist Pythia8::Hist::operator+(double)
     // defined in /Users/mato/.julia/artifacts/1efdb4b729131034a90e03a49327ea90a4bfb780/include/Pythia8/Basics.h:679:8
-    t.method("+", static_cast<Pythia8::Hist (Pythia8::Hist::*)(double)  const>(&Pythia8::Hist::operator+));
+    // By-hand disabled: See https://github.com/JuliaInterop/CxxWrap.jl/issues/458
+    //t.method("+", static_cast<Pythia8::Hist (Pythia8::Hist::*)(double)  const>(&Pythia8::Hist::operator+));
 
     DEBUG_MSG("Adding wrapper for Pythia8::Hist Pythia8::Hist::operator+(const Pythia8::Hist &) (" __HERE__ ")");
     // signature to use in the veto list: Pythia8::Hist Pythia8::Hist::operator+(const Pythia8::Hist &)

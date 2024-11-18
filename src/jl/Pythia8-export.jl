@@ -44,7 +44,7 @@ export canAddNucleonExcitation, canBeSeed, canBeSeed!, canBiasSelection, canChan
 export canFixIsoSpin, canForceHadronLevel, canModifySigma, canReconnectResonanceSystems, canSetImpactParameter, canSetLowEnergySigma
 export canSetResonanceScale, canShiftEvent, canVetoAfterHadronization, canVetoEmission, canVetoFSREmission, canVetoISREmission
 export canVetoMPIEmission, canVetoMPIStep, canVetoPT, canVetoPartonLevel, canVetoPartonLevelEarly, canVetoProcessLevel
-export canVetoResonanceDecays, canVetoStep, canVetoTrialEmission, cd, cd!, centralPDF, centralPDF!, chainDecay, charge, chargeType
+export canVetoResonanceDecays, canVetoStep, canVetoTrialEmission, cd!, centralPDF, centralPDF!, chainDecay, charge, chargeType
 export checkAgainstCut, checkVersion, clear, clearJunctions, clearStringBreaks, closeAllFiles, closeLHEF, clusConstituents, clustered
 export cm, cm!, code, col, col1, col1Part, col1Part!, col2, col2Part, col2Part!, colHV, colHV!, colJunction, colType, cols
 export colsHV, constituentMass, constituents, convert2mb, convertM2, copy, coupSM, coupSM!, coupSUSY, coupSUSY!, cutbasedms
