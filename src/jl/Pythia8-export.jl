@@ -47,7 +47,7 @@ export canVetoMPIEmission, canVetoMPIStep, canVetoPT, canVetoPartonLevel, canVet
 export canVetoResonanceDecays, canVetoStep, canVetoTrialEmission, cd!, centralPDF, centralPDF!, chainDecay, charge, chargeType
 export checkAgainstCut, checkVersion, clear, clearJunctions, clearStringBreaks, closeAllFiles, closeLHEF, clusConstituents, clustered
 export cm, cm!, code, col, col1, col1Part, col1Part!, col2, col2Part, col2Part!, colHV, colHV!, colJunction, colType, cols
-export colsHV, constituentMass, constituents, convert2mb, convertM2, copy, coupSM, coupSM!, coupSUSY, coupSUSY!, cutbasedms
+export colsHV, constituentMass, constituents, convert2mb, convertM2, coupSM, coupSM!, coupSUSY, coupSUSY!, cutbasedms
 export dNext, dRijMS, dampenIfFailCuts, daughter, daughter!, daughter1, daughter2, daughterList, daughterListRecursive
 export daughters, decay, decayAll, decayKinematics, deltaPA, deltaPB, deltaRij, detaAbs, deviation, distance, distanceSize
 export doCKKWLMerging, doChangeFragPar, doCutBasedMerging, doCutBasedMergingSave, doCutBasedMergingSave!, doCutOnRecState
@@ -68,10 +68,10 @@ export doWeakClusteringSave!, dphiAbs, dumpState, dyAbs, e, eBeamA, eBeamB, eCal
 export eTjet!, ecm, eigenValue, endCol, endColJunction, enforceStrongOrdering, enforceStrongOrderingSave
 export enforceStrongOrderingSave!, enhanceFactor, enhancePTmax, eraseJunction, errminusPDF, errminusPDF!, errplusPDF, errplusPDF!, errsymmPDF
 export errsymmPDF!, eta, etaCell, etaCell!, etaCenter, etaCenter!, etaWeighted, etaWeighted!, event, event!, eventAxis, eventLHEF
-export eventOrdering, eventPtr, eventPtr!, exp, failedExcitation, fdiv!, fileFound, fill, fillTable, final2KinMPI, finalKin
+export eventOrdering, eventPtr, eventPtr!, failedExcitation, fdiv!, fileFound, fillTable, final2KinMPI, finalKin
 export findColour, findOtherCandidates, findRecoilers, fixIsoSpin, flag, flagDefault, flat, flip3, flip4, fluxQ2dependence
 export forceHadronLevel, forceMVec, forceMode, forcePVec, forceParm, forceRHadronDecays, forceTimeShower, frame, free, fromCMframe
-export fromSameVframe, front, fsrInRecNorm, fsrInRecNormSave, fsrInRecNormSave!, fvec, fvecDefault, gamma, gammaPDFRefScale
+export fromSameVframe, fsrInRecNorm, fsrInRecNormSave, fsrInRecNormSave!, fvec, fvecDefault, gamma, gammaPDFRefScale
 export gammaPDFxDependence, gauss, genPoint, generateSingleSudakov, getA, getBeamShapePtr, getBinContent, getBinContents, getBinEdge
 export getBinEdges, getBinNumber, getBinWidth, getCouplingWeight, getEntries, getEventString, getFileName, getHasWeaklyRadiated
 export getHeavyIonsPtr, getIsInit, getJunction, getLHAupPtr, getLinX, getMerging, getMergingHooks, getNEffective, getNonFinite
@@ -128,11 +128,11 @@ export pol, popBack, posEnd, prepare, prepareGlobal, prepareProcess, printIndivi
 export processNow!, processSave, processSave!, projectile, projectileModel, pvec, pvecDefault, px, pxPart, pxPart!, py, pyPart
 export pyPart!, pyplotTable, pythiaHelper, pz, pzPart, pzPart!, rUpdate, rap, reInit, readFile, readState, readString
 export readingFailed, reassignBeamPtrs, reattachResonanceDecays, registerPluginLibrary, remains, remainsJunction, remove, removeJet
-export rescale3, rescale4, rescale5, rescaleMomenta, rescaleSigma, rescatterUpdate, reset, resetAll, resetFVec, resetFlag
+export rescale3, rescale4, rescale5, rescaleMomenta, rescaleSigma, rescatterUpdate, resetAll, resetFVec, resetFlag
 export resetHardQFac, resetHardQFacSave, resetHardQFacSave!, resetHardQRen, resetHardQRenSave, resetHardQRenSave!, resetMVec
 export resetMode, resetPVec, resetParm, resetValenceContent, resetWVec, resetWord, resonanceA, resonanceB, resonanceShower
 export restoreHVcolsSize, restoreJunctionSize, restorePtrs, restoreSize, retryPartonLevel, rhoPythia, rhoms, rivetTable, rndm, rndm!
-export rndmEnginePtr, rot, rotaxis, rotbst, run, runBW3, runBW4, runBW5, sHBetaMPI, sHat, sSymmetric, sameSize, sampleGammaValFlavor
+export rndmEnginePtr, rot, rotaxis, rotbst, runBW3, runBW4, runBW5, sHBetaMPI, sHat, sSymmetric, sameSize, sampleGammaValFlavor
 export sampleQ2gamma, sampleXgamma, saveHVcolsSize, saveJunctionSize, saveKin, savePartonLevelSize, saveSize, savedSizeValue, scale
 export scalePDF, scalePDF!, scalePart, scalePart!, scaleResonance, scaleSecond, scaleSeparationFactor, scaleSeparationFactorSave
 export scaleSeparationFactorSave!, scaleShowers, scaleShowersIsSet, scaleVetoPT, seed, seed!, sequence, sequence!, set1Kin, set2Kin, set2KinMPI
@@ -153,8 +153,8 @@ export set_doVetoProcessLevel, set_doVetoResonanceDecays, set_doVetoStep, set_in
 export set_numberVetoStep, set_onEndHadronLevel, set_retryPartonLevel, set_scaleResonance, set_scaleVetoPT, set_setStringEnds, settings
 export settings!, setup, setupSampling, shiftEvent, shower, showerQED, showerQEDafterRemnants, showers, showers!, sigmaGen
 export sigmaHat, sigmaHatWrap, sigmaKin, sigmaMax, sigmaMaxSwitch, sigmaND, sigmaNDErr, sigmaNN, sigmaNow, sigmaPDF
-export sigmaSumSigned, sigmaTot, sigmaTotErr, sisterList, size, sizeAll, sizeJet, sizeJunction, sizeOrig, sizePart, sizeProc
-export skipEvent, slhaInterface, slhaInterface!, sphericity, spin, spinPart, spinPart!, spinType, stat, state, state!, statistics
+export sigmaSumSigned, sigmaTot, sigmaTotErr, sisterList, sizeAll, sizeJet, sizeJunction, sizeOrig, sizePart, sizeProc
+export skipEvent, slhaInterface, slhaInterface!, sphericity, spin, spinPart, spinPart!, spinType, state, state!, statistics
 export status, statusAbs, statusCode, statusHepMC, statusJunction, statusNeg, statusPart, statusPart!, statusPos, stopAtN
 export stopScaleSave, stopScaleSave!, storeCandidates, storeHardProcessCandidates, storeWeights, strategy, sub!, subCollisionModel
 export subCollisions, subCollisionsPtr, subEvent, swapKin, swappedTU, system, tChanFracPow1, tChanFracPow2, tDec, tHat, tMajor
